@@ -1,0 +1,90 @@
+{
+  "arm": "base",
+  "base": "86cc13e00c5a6df3373b26d349f79b9feefd89ae",
+  "shots": {
+    "beforeCompose": {
+      "label": "beforeCompose",
+      "requests": 1,
+      "queryCount": "1 sessions in range",
+      "chips": [],
+      "summary": "100 Tokens $1.00 Cost 1 Sessions Export ▾",
+      "inputValue": ""
+    },
+    "composing": {
+      "label": "composing",
+      "requests": 1,
+      "queryCount": "1 sessions in range",
+      "chips": [
+        "とうきょう"
+      ],
+      "summary": "100 Tokens $1.00 Cost 1 Sessions Export ▾",
+      "inputValue": "とうきょう"
+    },
+    "afterComposedEnter": {
+      "label": "afterComposedEnter",
+      "requests": 2,
+      "queryCount": "",
+      "chips": [
+        "とうきょう"
+      ],
+      "summary": "0 Tokens $0.00 Cost 0 Sessions Export ▾",
+      "inputValue": "とうきょう"
+    },
+    "afterDeliberateEnter": {
+      "label": "afterDeliberateEnter",
+      "requests": 4,
+      "queryCount": "0 of 1 sessions match",
+      "chips": [
+        "とうきょう"
+      ],
+      "summary": "0 Tokens $0.00 Cost 0 Sessions Export ▾",
+      "inputValue": "とうきょう"
+    }
+  },
+  "bands": {
+    "step-2-composed-enter": {
+      "x": 334,
+      "y": 158,
+      "width": 822,
+      "height": 141
+    },
+    "step-3-deliberate-enter": {
+      "x": 334,
+      "y": 158,
+      "width": 822,
+      "height": 141
+    }
+  },
+  "keys": [
+    {
+      "key": "Enter",
+      "keyCode": 13,
+      "isComposing": true,
+      "defaultPrevented": true
+    },
+    {
+      "key": "Enter",
+      "keyCode": 13,
+      "isComposing": false,
+      "defaultPrevented": true
+    }
+  ],
+  "compositions": [
+    {
+      "type": "compositionstart",
+      "data": ""
+    },
+    {
+      "type": "compositionupdate",
+      "data": "とうきょう"
+    },
+    {
+      "type": "compositionupdate",
+      "data": "とうきょう"
+    },
+    {
+      "type": "compositionend",
+      "data": "とうきょう"
+    }
+  ]
+}
